@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    text-align:left;
+}
+input[type="number"] {
+    width: 100px;
+    padding: 4px;
+    margin: 5px;
+    border-radius: 5px;
+}
+input[type="date"] {
+    width: 100px;
+    padding: 4px;
+    margin: 5px;
+    border-radius: 5px;
+}
+input[type="text"] {
+    width: 100px;
+    padding: 4px;
+    margin: 5px;
+    border-radius: 5px;
+}
+input[type="password"] {
+    width: 100px;
+    padding: 4px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+input[type="email"] {
+    width: 100px;
+    padding: 4px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.contenedor{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
